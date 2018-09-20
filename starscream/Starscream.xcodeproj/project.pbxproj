@@ -376,7 +376,7 @@
 			};
 			name = Release;
 		};
-		369210EF210FB50800D1DB1A /* Distribution Ad Hoc */ = {
+		369210EF210FB50800D1DB1A /* AdHoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -429,9 +429,9 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = "Distribution Ad Hoc";
+			name = AdHoc;
 		};
-		369210F0210FB50800D1DB1A /* Distribution Ad Hoc */ = {
+		369210F0210FB50800D1DB1A /* AdHoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BITCODE_GENERATION_MODE = bitcode;
@@ -463,9 +463,9 @@
 				VALID_ARCHS = "x86_64 i386 arm64 armv7s armv7 armv7k";
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
-			name = "Distribution Ad Hoc";
+			name = AdHoc;
 		};
-		369210F1210FB50800D1DB1A /* Distribution Ad Hoc */ = {
+		369210F1210FB50800D1DB1A /* AdHoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
@@ -486,7 +486,7 @@
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
 			};
-			name = "Distribution Ad Hoc";
+			name = AdHoc;
 		};
 		369210F2210FB51900D1DB1A /* Demo Release */ = {
 			isa = XCBuildConfiguration;
@@ -727,7 +727,7 @@
 				335FA2001F5DF71D00F6D2EC /* Debug */,
 				335FA2011F5DF71D00F6D2EC /* Release */,
 				369210F4210FB51900D1DB1A /* Demo Release */,
-				369210F1210FB50800D1DB1A /* Distribution Ad Hoc */,
+				369210F1210FB50800D1DB1A /* AdHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -738,7 +738,7 @@
 				33CCF0901F5DDC030099B092 /* Debug */,
 				33CCF0911F5DDC030099B092 /* Release */,
 				369210F3210FB51900D1DB1A /* Demo Release */,
-				369210F0210FB50800D1DB1A /* Distribution Ad Hoc */,
+				369210F0210FB50800D1DB1A /* AdHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -749,7 +749,7 @@
 				6B3E79F719D48B7F006071F7 /* Debug */,
 				6B3E79F819D48B7F006071F7 /* Release */,
 				369210F2210FB51900D1DB1A /* Demo Release */,
-				369210EF210FB50800D1DB1A /* Distribution Ad Hoc */,
+				369210EF210FB50800D1DB1A /* AdHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
