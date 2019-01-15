@@ -547,7 +547,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		369210E7210FB4DA00D1DB1A /* Demo Release */ = {
+		369210E7210FB4DA00D1DB1A /* AppleStoreDemo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BITCODE_GENERATION_MODE = bitcode;
@@ -590,9 +590,9 @@
 				VALID_ARCHS = "i386 x86_64 armv7 armv7s arm64 armv7k";
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
-			name = "Demo Release";
+			name = AppleStoreDemo;
 		};
-		369210E8210FB4DA00D1DB1A /* Demo Release */ = {
+		369210E8210FB4DA00D1DB1A /* AppleStoreDemo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -656,9 +656,9 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = "Demo Release";
+			name = AppleStoreDemo;
 		};
-		369210E9210FB4DA00D1DB1A /* Demo Release */ = {
+		369210E9210FB4DA00D1DB1A /* AppleStoreDemo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -730,7 +730,7 @@
 				TVOS_DEPLOYMENT_TARGET = 10.0;
 				VALID_ARCHS = "$(inherited)";
 			};
-			name = "Demo Release";
+			name = AppleStoreDemo;
 		};
 		369210EC210FB4EE00D1DB1A /* AdHoc */ = {
 			isa = XCBuildConfiguration;
@@ -1313,7 +1313,7 @@
 			buildConfigurations = (
 				572EF2121B51F12F00EEBB58 /* Debug */,
 				572EF2131B51F12F00EEBB58 /* Release */,
-				369210E7210FB4DA00D1DB1A /* Demo Release */,
+				369210E7210FB4DA00D1DB1A /* AppleStoreDemo */,
 				369210EC210FB4EE00D1DB1A /* AdHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -1324,7 +1324,7 @@
 			buildConfigurations = (
 				572EF24C1B51F18A00EEBB58 /* Debug */,
 				572EF24D1B51F18A00EEBB58 /* Release */,
-				369210E8210FB4DA00D1DB1A /* Demo Release */,
+				369210E8210FB4DA00D1DB1A /* AppleStoreDemo */,
 				369210ED210FB4EE00D1DB1A /* AdHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -1335,7 +1335,7 @@
 			buildConfigurations = (
 				572EF24F1B51F18A00EEBB58 /* Debug */,
 				572EF2501B51F18A00EEBB58 /* Release */,
-				369210E9210FB4DA00D1DB1A /* Demo Release */,
+				369210E9210FB4DA00D1DB1A /* AppleStoreDemo */,
 				369210EE210FB4EE00D1DB1A /* AdHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
