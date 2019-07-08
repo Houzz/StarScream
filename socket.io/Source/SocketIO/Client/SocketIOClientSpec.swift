@@ -225,7 +225,7 @@ public protocol SocketIOClientSpec : class {
 
 public extension SocketIOClientSpec {
     /// Default implementation.
-    public func didError(reason: String) {
+    func didError(reason: String) {
         DefaultSocketLogger.Logger.error("\(reason)", type: "SocketIOClient")
 
         handleClientEvent(.error, data: [reason])

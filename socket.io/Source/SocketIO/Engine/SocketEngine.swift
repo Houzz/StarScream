@@ -557,7 +557,7 @@ public final class SocketEngine : NSObject, URLSessionDelegate, SocketEnginePoll
     /// Called when the engine should set/update its configs from a given configuration.
     ///
     /// parameter config: The `SocketIOClientConfiguration` that should be used to set/update configs.
-    open func setConfigs(_ config: SocketIOClientConfiguration) {
+    public func setConfigs(_ config: SocketIOClientConfiguration) {
         for option in config {
             switch option {
             case let .connectParams(params):
