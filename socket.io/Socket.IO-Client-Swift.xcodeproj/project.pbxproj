@@ -46,7 +46,6 @@
 		DD52BFBC9E7CC32D3515AC80 /* SocketEngineSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD52B645273A873667BC2D43 /* SocketEngineSpec.swift */; };
 		DD52BFEB4DBD3BF8D93DAEFF /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD52B6DCCBBAC6BE9C22568D /* SocketEventHandler.swift */; };
 		DE00930C235F471C0024F607 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361B659E2107874600B89E4B /* Starscream.framework */; };
-		DE00930D235F471C0024F607 /* Starscream.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 361B659E2107874600B89E4B /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,20 +71,6 @@
 			remoteInfo = "SocketIO-Mac";
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		DE00930E235F471C0024F607 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				DE00930D235F471C0024F607 /* Starscream.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1C6574AF9687A213814753E4 /* SocketManagerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketManagerSpec.swift; sourceTree = "<group>"; };
@@ -379,7 +364,6 @@
 				572EF2341B51F18A00EEBB58 /* Frameworks */,
 				572EF2351B51F18A00EEBB58 /* Headers */,
 				572EF2361B51F18A00EEBB58 /* Resources */,
-				DE00930E235F471C0024F607 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
